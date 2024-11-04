@@ -1,0 +1,21 @@
+1. User Authentication:
+
+/Signup [POST]   
+/login  [POST]
+
+2. User Profile
+
+/profile [GET] - get user information
+/profile/password [PUT] - change user password
+
+3. Voting
+
+/candidates [GET] - list of all candidates 
+/vote/:candidateID [POST] - give vote to specific candidate
+/vote/count [GET] - get all candidate live votes 
+
+4. Admin management 
+
+/candidates [POST] - create new candidate
+/candidates/:candidateID [PUT] - update exsiting user
+/candidates/:candidateID [DELETE] - delete exsiting user
